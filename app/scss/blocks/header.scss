@@ -1,8 +1,20 @@
 nav.navbar{
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: 9;
     width: 100%;
+    padding: 10px 100px;
+    .nav-item{
+        margin: 0 30px;
+        font-size: 20px;
+    }
     a{
-        color: #fff;
+        color: $primaryColor;
+    }
+    .navbar-brand{
+        svg{
+            fill: $primaryColor;
+        }
     }
 }

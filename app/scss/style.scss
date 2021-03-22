@@ -1,9 +1,19 @@
 @import "utils/libs.scss";
+@import "utils/vars.scss";
 
 
 
 body{
     height: 5000px;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+li{
+    list-style: none;
 }
 
 
