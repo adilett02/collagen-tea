@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -26,11 +29,23 @@
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="28" viewBox="0 0 28 28" width="28">
+					<path
+						d="M3 7C3 6.44771 3.44772 6 4 6H24C24.5523 6 25 6.44771 25 7C25 7.55229 24.5523 8 24 8H4C3.44772 8 3 7.55229 3 7Z"
+						fill="black" />
+					<path
+						d="M3 14C3 13.4477 3.44772 13 4 13H24C24.5523 13 25 13.4477 25 14C25 14.5523 24.5523 15 24 15H4C3.44772 15 3 14.5523 3 14Z"
+						fill="black" />
+					<path
+						d="M4 20C3.44772 20 3 20.4477 3 21C3 21.5523 3.44772 22 4 22H24C24.5523 22 25 21.5523 25 21C25 20.4477 24.5523 20 24 20H4Z"
+						fill="black" />
+				</svg>
+			</span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav ml-auto align-items-center">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Белый чай</a>
 				</li>
@@ -40,6 +55,11 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">О нас</a>
 				</li>
+				<li>
+					<a class="order-btn" href="#">
+						Получить сейчас
+					</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -47,15 +67,16 @@
 		<div class="circle"></div>
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-6">
-					<h1>Белый чай</h1>
+				<div class="col-lg-6 mb-5 mb-lg-0">
+					<h1>Чай с коллагеном</h1>
 					<h3>Smart&Rich</h3>
-					<h6>международная компания Smart&Rich предлагает Вам оценить уникальный вкус кофе и чая!</h6>
+					<h6 class="mb-3">международная компания <span>Smart&Rich</span> предлагает Вам оценить уникальный вкус кофе и
+						чая!</h6>
 					<a class="order-btn" href="#">
 						Получить сейчас
 					</a>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 text-center">
 					<img class="hero-img" src="img/tea.png" alt="">
 				</div>
 			</div>
@@ -127,6 +148,57 @@
 				</div>
 			</div>
 
+
+
+			<div class="row overflow-hidden">
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>01</span>
+					<p>Благотворно влияет на органы дыхания. Эфирные масла, входящие в его состав, улучшают приток крови
+						к легким и бронхам.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>02</span>
+					<p>Обладает охлаждающим действием. С его помощью можно утолить жажду и освежиться в жару.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>03</span>
+					<p>Напиток оказывает расслабляющее действие, успокаивает ум и тело, снимает симптомы перенапряжения.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>04</span>
+					<p>Снижает риск развития болезни Альцгеймера.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>05</span>
+					<p>Калий в составе чая благотворно влияет на работу сердечной мышцы, а витамин Р способствует
+						укреплению стенок сосудов.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>06</span>
+					<p>Напиток выводит из организма токсичные вещества, оказывает противовоспалительное и
+						антиоксидантное действие.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>07</span>
+					<p>Белый чай способствует сжиганию жира. Его стоит включить в свое меню тем, кто хочет избавиться от
+						лишних килограммов.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 useful-item">
+					<span>08</span>
+					<p>Фториды, которые содержатся в белых почках, снижают риск развития зубного камня, кариеса и других
+						заболеваний полости рта.
+					</p>
+				</div>
+
+			</div>
+
 			<div class="row py-5 align-items-center">
 				<div class="col-md-6">
 					картинка
@@ -187,6 +259,61 @@
 					</p>
 				</div>
 
+			</div>
+		</div>
+	</section>
+	<section id="main_features" class="main-features padding-100">
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-12 section-title aos-init aos-animate" data-aos="fade-zoom-in">
+					<h3>
+						<span>Полезные свойства</span>
+					</h3>
+					<div class="space-25"></div>
+					<p>Преимущества регулярного употребления чая Бай Му Дань с морским коллагеном компании Smart&Rich:
+					</p>
+					<div class="space-25"></div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-lg-3 text-lg-right left-side">
+					<div class="one-feature one aos-init aos-animate" data-aos="fade-right" data-aos-delay="1000">
+						<p>восстанавливается тургор кожи</p>
+					</div>
+					<div class="one-feature aos-init aos-animate" data-aos="fade-right" data-aos-delay="1400">
+						<p>замедляется процесс старения клеток кожи</p>
+					</div>
+					<div class="one-feature aos-init aos-animate" data-aos="fade-right" data-aos-delay="1800">
+						<p>волосы наполняются живым блеском</p>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div class="features-circle">
+						<div class="circle-svg aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+							<svg version="1.1" id="features_circle" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="543px"
+								height="542.953px" viewBox="0 0 543 542.953" enable-background="new 0 0 543 542.953"
+								xml:space="preserve">
+								<g>
+									<circle fill="none" stroke="#" stroke-width="3" stroke-miterlimit="10"
+										stroke-dasharray="11.9474,11.9474" cx="271.5" cy="271.516" r="270"></circle>
+									<animateTransform attributeName="transform" type="rotate" from="0" to="360"
+										dur="50s" repeatCount="indefinite"></animateTransform>
+								</g>
+							</svg>
+						</div>
+						<img data-aos="fade-up" data-aos-delay="200" src="img/mobile-3.png"
+							class="img-fluid aos-init aos-animate" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3 right-side">
+					<div class="one-feature aos-init aos-animate" data-aos="fade-left" data-aos-delay="1000">
+						<p>укрепляются ногти и зубы</p>
+					</div>
+					<div class="one-feature aos-init aos-animate" data-aos="fade-left" data-aos-delay="1400">
+						<p>улучшается работа сердечно-сосудистой и пищеварительной системы.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

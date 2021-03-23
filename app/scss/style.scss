@@ -1,21 +1,24 @@
 @import "utils/libs.scss";
 @import "utils/vars.scss";
 
-
-
-body{
+body {
     height: 5000px;
+    font-family: "Lato", sans-serif;
 }
-a{
+a {
     text-decoration: none;
-    &:hover{
+    &:hover {
         text-decoration: none;
     }
 }
-li{
+li {
     list-style: none;
 }
 
 
+
 @import "../scss/blocks/header.scss";
 @import "../scss/blocks/hero.scss";
+@import "../scss/blocks/about-product.scss";
+
+@import "../scss/utils/media.scss";

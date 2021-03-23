@@ -1,0 +1,55 @@
+.useful-item {
+    padding: 40px;
+    border-left: 1px solid #d9e8f4;
+    border-bottom: 1px solid #d9e8f4;
+    margin: -1px;
+    span {
+        display: block;
+        font-size: 24px;
+        font-weight: 400;
+        color: $primaryColor;
+    }
+    p {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.padding-100 {
+    padding: 100px 0;
+}
+.section-title h3 {
+    color: #303952;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+}
+.space-25 {
+    height: 25px;
+}
+.section-title p {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.main-features .features-circle {
+    position: relative;
+}
+.features-circle .circle-svg {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.features-circle svg g{
+    transform-origin: 50%;
+}
+.features-circle svg circle {
+    stroke: #00cdcd;
+}

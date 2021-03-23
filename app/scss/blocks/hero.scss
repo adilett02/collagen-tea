@@ -1,6 +1,7 @@
 .hero {
 	padding: 100px 100px 0px;
 	position: relative;
+	min-height: 100vh;
 }
 .circle {
 	position: absolute;
@@ -17,15 +18,22 @@
 h1{
 	font-size: 72px;
 	color: $primaryColor;
+	font-weight: 900;
+	line-height: 1;
 }
 h3{
 	font-size: 48px;
+	font-weight: 700;
 }
 h6{
 	font-size: 24px;
+	font-style: italic;
+	span{
+		color: $primaryColor;
+		font-weight: bold;
+	}
 }
 .order-btn{
-	margin-top: 20px;
 	padding: 15px 45px;
 	background-color: $primaryColor;
 	color: #fff;
@@ -56,3 +64,6 @@ h6{
 		}
 	}
 }
+
+
+
