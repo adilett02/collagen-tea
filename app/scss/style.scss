@@ -2,7 +2,9 @@
 @import "utils/vars.scss";
 
 body {
+    font-size: 18px;
     height: 5000px;
+    font-family: "Satisfy", cursive;
     font-family: "Lato", sans-serif;
 }
 a {
@@ -14,9 +16,6 @@ a {
 li {
     list-style: none;
 }
-
-
-
 @import "../scss/blocks/header.scss";
 @import "../scss/blocks/hero.scss";
 @import "../scss/blocks/about-product.scss";
