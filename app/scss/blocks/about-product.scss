@@ -52,11 +52,15 @@
         color: $primaryColor;
     }
     p {
-        font-size: 15px;
+        font-size: 17px;
         margin: 0;
         padding: 0;
     }
 }
+
+// .composition-item{
+//     padding: 20px;
+// }
 
 .padding-100 {
     padding: 100px 0;
@@ -95,3 +99,11 @@
 .features-circle svg circle {
     stroke: #00cdcd;
 }
+
+
+.buy-section {
+    background-image: url(../img/buy-bg.png);
+    background-color: $primaryColor;
+    background-position: center;
+    padding-top: 120px;
+  }
