@@ -1,0 +1,47 @@
+//about-us
+.about-us {
+    padding-top: 30px;
+    h2 {
+        text-align: center;
+        color: #56a3cf;
+        font-size: 44px;
+        font-weight: bold;
+    }
+    img {
+        width: 100%;
+    }
+}
+.juncao__start {
+    background-color: $primaryColor;
+    &-text {
+        padding: 80px 30px;
+        text-align: center;
+        color: #fff;
+    }
+}
+.juncao__end {
+    padding-bottom: 25px;
+}
+
+.problem__decision-section {
+    background: linear-gradient(to right, $primaryColor 50%, #fff 50%);
+    .mobile__dark,
+    .mobile__green {
+        padding: 50px 30px;
+        svg {
+            width: 80px;
+            fill: #fff;
+            height: 80px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.advice__text {
+    padding: 60px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 700;
+}

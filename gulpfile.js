@@ -40,7 +40,8 @@ function jsLibs(cb) {
     const libs = [
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      'node_modules/stellar.js/jquery.stellar.min.js',
+      'node_modules/slick-slider/slick/slick.min.js',
+
     ];
   
     if (!libs.length) return cb();
