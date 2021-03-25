@@ -1,11 +1,10 @@
 @import "utils/libs.scss";
 @import "utils/vars.scss";
-
+@import "utils/fonts.scss";
 body {
     font-size: 18px;
-    height: 5000px;
-    font-family: "Satisfy", cursive;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato';
+    color: #303952;
 }
 a {
     text-decoration: none;
