@@ -15,6 +15,9 @@ a {
 li {
     list-style: none;
 }
+ul{
+    padding: 0
+}
 @import "../scss/blocks/header.scss";
 @import "../scss/blocks/hero.scss";
 @import "../scss/blocks/about-product.scss";

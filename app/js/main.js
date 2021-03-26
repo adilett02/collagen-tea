@@ -10,7 +10,7 @@
 		autoplay: true,
 		autoHeight: true,
 		nav: true,
-		navText: ['back', 'next'],
+		navText: ['‹', '›'],
 		responsive: {
 			600: {
 				margin: 0,

@@ -44,6 +44,9 @@
     }
 }
 @media (max-width: 576px) {
+    body{
+        font-size: 16px;
+    }
     nav.navbar{
         padding: 0 10px;
     }
@@ -61,6 +64,9 @@
     }
     .circle {
         clip-path: circle(400px at center bottom);
+    }
+    .social__list{
+        justify-content: center;
     }
 }
 @media (max-width: 400px) {
