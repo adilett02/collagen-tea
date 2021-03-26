@@ -30,5 +30,23 @@
 		}
 	});
 
+	//aos
+	AOS.init({
+		offset: 150,
+		duration: 1000,
+		easing: "ease-in-out-back",
+		once: true
+	});
+
+	//scroll
+    $('.nav-link').on('click', function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr("href")).offset().top
+        }, {
+            duration: 1000,
+            easing: "easeInOutExpo"
+        });
+    });
+
 
 })(jQuery);

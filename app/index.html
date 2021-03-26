@@ -44,13 +44,13 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto align-items-center">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Белый чай</a>
+					<a class="nav-link" href="#about-product">Белый чай</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Отзывы</a>
+					<a class="nav-link" href="#testimonials">Отзывы</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">О нас</a>
+					<a class="nav-link" href="#about-us">О нас</a>
 				</li>
 				<li>
 					<a class="order-btn" href="#">
@@ -65,17 +65,23 @@
 		<div class="container-fluid">
 			<div class="row align-items-center">
 				<div class="col-lg-6 mb-5 mb-lg-0">
-					<h1 class="mb-3">Чай с коллагеном</h1>
-					<h3 class="mb-3">Smart&Rich</h3>
-					<h6 class="mb-3">международная компания <span>Smart&Rich</span> предлагает Вам оценить уникальный
+					<h1 class="mb-3" data-aos="fade-right">Чай с коллагеном</h1>
+					<h3 class="mb-3" data-aos="fade-right" data-aos-delay="100">Smart&Rich</h3>
+					<h6 class="mb-3" data-aos="fade-right" data-aos-delay="200">международная компания
+						<span>Smart&Rich</span> предлагает Вам оценить уникальный
 						вкус кофе и
-						чая!</h6>
-					<a class="order-btn" href="#">
+						чая!
+					</h6>
+					<a class="order-btn" href="#" data-aos="fade-right" data-aos-delay="300">
 						Получить сейчас
 					</a>
 				</div>
 				<div class="col-lg-6 text-center">
-					<img class="hero-img" src="img/tea.png" alt="">
+					<picture>
+						<source srcset="img/hero.webp" type="image/webp" />
+						<img class="hero-img" src="img/hero.png" alt="drink" data-aos="fade-right"
+							data-aos-delay="400" />
+					</picture>
 				</div>
 			</div>
 		</div>
@@ -113,14 +119,18 @@
 			</li>
 		</ul>
 	</section>
-	<section class="about-product">
+	<section class="about-product" id="about-product">
 		<div class="container">
-			<h2>Белый чай</h2>
-			<span class="composition">Элитный белый чай «SR» сорта Баймудань со 100% сертифицированным морским
+			<h2 data-aos="fade-in">Белый чай</h2>
+			<span class="composition" data-aos="fade-in">Элитный белый чай «SR» сорта Баймудань со 100%
+				сертифицированным морским
 				Коллагеном</span>
-			<div class="row py-5 align-items-center">
+			<div class="row py-5 align-items-center overflow-hidden">
 				<div class="col-md-6">
-					<img class="w-100" src="img/tea1.png" alt="">
+					<picture>
+						<source srcset="img/product.webp" type="image/webp" />
+						<img class="w-100" src="img/product.png" alt="" data-aos="fade-left">
+					</picture>
 				</div>
 				<div class="col-md-6">
 					Белый чай появился задолго до зеленого и пуэра. Изначально его использовали в качестве
@@ -160,47 +170,47 @@
 
 		<div class="container">
 			<h4 class="text-center mt-5">Полезные свойства</h4>
-			<div class="row overflow-hidden">
-				<div class="col-lg-4 col-md-6 useful-item">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up">
 					<span>01</span>
 					<p>Благотворно влияет на органы дыхания. Эфирные масла, входящие в его состав, улучшают приток крови
 						к легким и бронхам.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="100">
 					<span>02</span>
 					<p>Обладает охлаждающим действием. С его помощью можно утолить жажду и освежиться в жару.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="200">
 					<span>03</span>
 					<p>Напиток оказывает расслабляющее действие, успокаивает ум и тело, снимает симптомы перенапряжения.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="300">
 					<span>04</span>
 					<p>Снижает риск развития болезни Альцгеймера.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="400">
 					<span>05</span>
 					<p>Калий в составе чая благотворно влияет на работу сердечной мышцы, а витамин Р способствует
 						укреплению стенок сосудов.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="500">
 					<span>06</span>
 					<p>Напиток выводит из организма токсичные вещества, оказывает противовоспалительное и
 						антиоксидантное действие.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="600">
 					<span>07</span>
 					<p>Белый чай способствует сжиганию жира. Его стоит включить в свое меню тем, кто хочет избавиться от
 						лишних килограммов.
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-6 useful-item">
+				<div class="col-lg-4 col-md-6 useful-item" data-aos="fade-up" data-aos-delay="700">
 					<span>08</span>
 					<p>Фториды, которые содержатся в белых почках, снижают риск развития зубного камня, кариеса и других
 						заболеваний полости рта.
@@ -210,37 +220,37 @@
 			</div>
 			<h4 class="text-center mt-5">Состав</h4>
 			<div class="row overflow-hidden">
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up">
 					<p class="composition-item">
 						витамины С, РР, витамины группы В
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="100">
 					<p class="composition-item">
 						минералы: фтор, железо, калий, магний, фосфор
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="200">
 					<p class="composition-item">
 						природные антиоксиданты
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="300">
 					<p class="composition-item">
 						эфирные масла
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="400">
 					<p class="composition-item">
 						аминокислоты
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="500">
 					<p class="composition-item">
 						дубильные вещества
 					</p>
 				</div>
-				<div class="col-lg-3 col-md-4 useful-item">
+				<div class="col-lg-3 col-md-4 useful-item" data-aos="fade-up" data-aos-delay="600">
 					<p class="composition-item">
 						кофеина в белом чае меньше, чем в остальных сортах.
 					</p>
@@ -250,7 +260,7 @@
 
 
 
-			<div class="row pt-5 align-items-center flex-column-reverse flex-md-row">
+			<div class="row pt-5 align-items-center flex-column-reverse flex-md-row overflow-hidden">
 				<div class="col-md-6">
 					<p>
 						Баймудань отличается особым ароматом, в котором часто присутствуют нотки весенних цветов. Вкус
@@ -268,16 +278,23 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="w-100" src="img/tea3.png" alt="">
+					<picture>
+						<source srcset="img/product2.webp" type="image/webp" />
+						<img class="w-100" src="img/product2.png" alt="image" data-aos="fade-right">
+					</picture>
 				</div>
 			</div>
 		</div>
 
 		<div class="blue-bg">
 			<div class="container">
-				<div class="row align-items-center">
+				<div class="row align-items-center overflow-hidden">
 					<div class="col-md-6">
-						<img class="w-100" src="img/tea4.png" alt="">
+						<picture>
+							<source srcset="img/product-collagen.webp" type="image/webp" />
+							<img class="w-100" src="img/product-collagen.png" alt="image" data-aos="fade-left">
+						</picture>
+
 					</div>
 					<div class="col-md-6">
 						Чтобы усилить положительный эффект от употребления этого чая, мы добавили в него экстракт
@@ -290,7 +307,7 @@
 		</div>
 
 		<div class="container">
-			<div class="row py-5 align-items-center flex-column-reverse flex-md-row">
+			<div class="row py-5 align-items-center flex-column-reverse flex-md-row overflow-hidden">
 				<div class="col-md-6">
 					<h4>Коллаген</h4>
 					<p>
@@ -309,7 +326,11 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="w-100" src="img/collagen.png" alt="">
+					<picture>
+						<source srcset="img/collagen.webp" type="image/webp" />
+						<img class="w-100" src="img/collagen.png" alt="image" data-aos="fade-right">
+					</picture>
+
 				</div>
 			</div>
 		</div>
@@ -336,24 +357,24 @@
 						</p>
 					</div>
 				</div>
-				<div class="row align-items-center mt-5">
+				<div class="row align-items-center mt-5 overflow-hidden">
 					<div class="col-lg-3 text-lg-right left-side">
-						<div class="one-feature one">
+						<div class="one-feature one" data-aos="fade-right" data-aos-delay="1000">
 							<p>восстанавливается тургор кожи</p>
 							<img class="feature-icon" src="img/icons/leather.png" alt="">
 						</div>
-						<div class="one-feature">
+						<div class="one-feature" data-aos="fade-right" data-aos-delay="1400">
 							<p>замедляется процесс старения клеток кожи</p>
 							<img class="feature-icon" src="img/icons/oldest.png" alt="">
 						</div>
-						<div class="one-feature">
+						<div class="one-feature" data-aos="fade-right" data-aos-delay="1800">
 							<p>волосы наполняются живым блеском</p>
 							<img class="feature-icon" src="img/icons/hair.png" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 text-center">
 						<div class="features-circle">
-							<div class="circle-svg">
+							<div class="circle-svg" data-aos="zoom-in" data-aos-delay="400">
 								<svg version="1.1" id="features_circle" xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="543px"
 									height="542.953px" viewBox="0 0 543 542.953" enable-background="new 0 0 543 542.953"
@@ -366,15 +387,20 @@
 									</g>
 								</svg>
 							</div>
-							<img src="img/feature.png" class="img-fluid" alt="">
+							<picture>
+								<source srcset="img/feature.webp" type="image/webp" />
+								<img src="img/feature.png" class="img-fluid" alt="img" data-aos="fade-up"
+									data-aos-delay="200">
+							</picture>
+
 						</div>
 					</div>
 					<div class="col-lg-3 right-side">
-						<div class="one-feature">
+						<div class="one-feature" data-aos="fade-left" data-aos-delay="1000">
 							<img class="feature-icon" src="img/icons/teeth.png" alt="">
 							<p>укрепляются ногти и зубы</p>
 						</div>
-						<div class="one-feature">
+						<div class="one-feature" data-aos="fade-left" data-aos-delay="1400">
 							<img class="feature-icon" src="img/icons/heart.png" alt="">
 							<p>улучшается работа сердечно-сосудистой и пищеварительной системы.</p>
 						</div>
@@ -385,8 +411,8 @@
 
 		<div class="recommendation-section py-5">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
+				<div class="row align-items-center overflow-hidden">
+					<div class="col-lg-6" data-aos="fade-left">
 						<picture>
 							<source srcset="img/x3.webp" type="image/webp" />
 							<img class="w-100 mb-4" src="img/x3.png" alt="drink" />
@@ -418,7 +444,7 @@
 							навсегда!
 						</h4>
 						<h5 class="buy-text">
-							Начни сегодня пить <span>белый чай с Ганодермой,</span> и получай с
+							Начни сегодня пить <span>белый чай с Коллагеном,</span> и получай с
 							каждой выпитой
 							чашкой мощный иммунитет и
 							крепкое здоровье.
@@ -427,7 +453,7 @@
 							Хочу купить!
 						</button>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6" data-aos="fade-right">
 						<picture>
 							<source srcset="img/girl2.webp" type="image/webp" />
 							<img class="w-100" src="img/girl2.png" alt="drink" />
@@ -440,7 +466,7 @@
 		</div>
 	</section>
 
-	<section class="testimonials">
+	<section class="testimonials" id="testimonials">
 		<div class="container">
 			<h2>Отзывы</h2>
 			<div class="nonloop-block-13 owl-carousel">
@@ -524,7 +550,7 @@
 						производству, изготовлению, обработке, хранению, транспортировке и реализации продукции халал».
 					</p>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-right">
 					<picture>
 						<source srcset="img/girl-cup.webp" type="image/webp" />
 						<img class="drink" src="img/girl-cup.png" alt="drink" />
