@@ -4,7 +4,7 @@
 body {
     font-size: 18px;
     font-family: 'Lato';
-    color: #303952;
+    color: $secondaryColor;
 }
 a {
     text-decoration: none;
@@ -18,6 +18,15 @@ li {
 ul{
     padding: 0
 }
+
+@media (max-width: 576px){
+    body{
+        font-size: 16px;
+    }
+}
+
+
+
 @import "../scss/blocks/header.scss";
 @import "../scss/blocks/hero.scss";
 @import "../scss/blocks/about-product.scss";
