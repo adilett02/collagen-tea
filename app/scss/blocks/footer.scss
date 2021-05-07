@@ -3,7 +3,7 @@
     padding: 40px 0;
     background-color: $primaryColor;
     color: #000;
-    .conditions-text{
+    .conditions-text {
         color: #fff;
     }
 }
@@ -56,8 +56,15 @@
     }
 }
 
+.positive-text {
+    color: #fff;
+}
+.negative-text {
+    color: #e03e2d;
+}
+
 @media (max-width: 576px) {
-    .social__list{
+    .social__list {
         justify-content: center;
     }
 }
