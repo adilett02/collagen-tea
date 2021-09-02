@@ -1,5 +1,11 @@
-.form{
+.form {
     padding: 100px 0;
+    button {
+        border: none;
+    }
+    textarea {
+        resize: none;
+    }
 }
 .form-group {
     position: relative;
